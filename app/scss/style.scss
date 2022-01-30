@@ -120,6 +120,7 @@
     width: 200px;
     margin-right: 100px;
     margin-top: -12px;
+    @extend %rubik-400;
   }
 
   &__services,
@@ -138,25 +139,31 @@
     color: #1f2044;
     margin-bottom: 22px;
     text-transform: uppercase;
-    // %dmsans-700;
+    @extend %dmsans-700;
   }
 
   &__item-adress{
     display: block;
     margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 22px;
   }
 
   &__item-phone,
   &__item-email{
     color: $default;
+    font-size: 14px;
     line-height: 32px;
   }
 
   &__list-item{
     margin-bottom: 8px;
+    @extend %rubik-400;
   }
   &__form-text{
     margin-bottom: 35px;
+    line-height: 24px;
+    @extend %rubik-400;
   }
   &__form-input{
     background-color: $accent-bg;
@@ -167,6 +174,7 @@
     &::placeholder{
       color: #234969;
       font-size: 12px;
+      @extend %dmsans-400;
     }
   }
   &__form-btn{
@@ -175,6 +183,7 @@
     color: #fff;
     padding: 7px 16px 7px 12px;
     cursor: pointer;
+    @extend %dmsans-400;
   }
 }
 .footer-bottom{
