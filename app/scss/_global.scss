@@ -6,7 +6,7 @@ body{
 
 body{
   color: $default;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 18px;
   @extend %dmsans-500;
   display: flex;
@@ -23,5 +23,10 @@ body{
   padding: 0 15px;
 }
 
-
+.title{
+  font-size: 36px;
+  line-height: 40px;
+  color: #191919;
+  @extend %dmsans-700;
+}
 
